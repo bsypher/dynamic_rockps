@@ -1,0 +1,74 @@
+*{
+	background-color: #f5f5dc ;
+	margin:0px;
+	padding:0px;
+}
+body{ 
+	text-align: center;
+	
+	
+}
+header, container, score, result, victor{
+	display:block;
+}
+
+h1{
+	font:bold 18px Tahoma;
+	padding: 20px;
+}
+.image{
+	height: 400px;
+	width: 345px;
+	padding: 20px;
+}
+#top_header{
+	 background: #aeaeaa;
+	 border: 1px solid black;
+	 padding: 20px;
+	 font:bold 20px Tahoma;
+	
+}
+.container{
+	margin:30px
+	
+}
+
+#rock{
+	font: bold 16px Tahoma;
+	border: none;
+	background-color: #94943f;
+	color: white;
+	padding: 15px 32px;
+	display: inline-block;
+}
+#rock:hover{
+	box-shadow: 2px 2px 2px 2px #0f0f0e;
+}
+#paper{
+	font: bold 16px Tahoma;
+	border: none;
+	background-color: #ffffff;
+	color: 1px solid black;
+	padding: 15px 32px;
+	display: inline-block;
+}
+#paper:hover{
+	box-shadow: 2px 2px 2px 2px #0f0f0e;
+}
+#scissors{
+	font: bold 16px Tahoma;
+	border: none;
+	background-color: #94943f;
+	color: white;
+	padding: 15px 32px;
+	display: inline-block;
+}
+#scissors:hover{
+	box-shadow: 2px 2px 2px 2px #0f0f0e;
+	
+}
+.fight{
+	font: bold 15px Tahoma;
+	border: 1px solid black;
+	padding: 20px;
+}
